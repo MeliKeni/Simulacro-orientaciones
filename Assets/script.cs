@@ -14,7 +14,7 @@ public class script : MonoBehaviour
         if(nombre == "" || curso > 5 || curso < 1)
         {
             Debug.Log("Hay un error en el ingreso de datos");
-        }else if (orientacion != "M" & orientacion != "T" & orientacion != "H" & orientacion != "D" & orientacion != "G")
+        }else if (orientacion != "M" && orientacion != "T" && orientacion != "H" && orientacion != "D" && orientacion != "G")
         {
             Debug.Log("Solo puede ingresar T, D, G, M o H");
         } else if (curso < 3)
